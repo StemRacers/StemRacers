@@ -7,5 +7,5 @@ using UnityEngine;
 public class BlockContext
 {
     // Contextual information for block execution
-    public VehicleController VehicleController { get; set; }
+    public VehicleController Vehicle { get; set; }
 }
