@@ -1,16 +1,9 @@
+using System;
 using UnityEngine;
 
 public class UIBlockBase : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public BlockType type;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public virtual BaseBlock CreateLogicBlock(BlockContext blockContext) { return null; }
 }

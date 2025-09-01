@@ -1,6 +1,9 @@
-
-
-
+public enum BlockType
+{
+    MoveForward,
+    Repeat,
+    DebugLog
+}
 
 /// <summary>
 /// Represents the abstract base class for all block types in the system.
@@ -17,6 +20,8 @@
 /// </param>
 public abstract class BaseBlock
 {
+
+    public BlockType Type;
 
     public BaseBlock NextBlock;
 
