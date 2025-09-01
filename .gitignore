@@ -74,6 +74,9 @@ mono_crash.*
 *.unitypackage.meta
 *.app
 
+# Unity Asset Store files auto-generated in the Assets folder
+Assets/TextMesh\ Pro
+
 # Crashlytics generated file
 crashlytics-build.properties
 
